@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-image: url(img/background-bsu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 480px;
+    max-width: 1920px;
+    min-height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding:0;
+}
+.spearHeader{
+    height:230px;
+    background-color: #bd1616;
+    width: 800px;
+    background:linear-gradient(-65deg, transparent 120px, #bd1616 0)bottom left;
+    filter:drop-shadow(30px -10px 5px)
+}
+
+.spearHeader h1{
+    font-size: 60px;
+    padding: 0;
+    color:white;
+}
+
+.spearHeader p{
+    font-size: 20px;
+    padding-top: 0;
+    color:white;
+}
+
+.BSULogo{
+    height:100px;
+    width:100px;
+    float:right;
+    display:block;
+}
+
+.spearLogo{
+    float:left;
+    display:block;
+    width: 200px;
+    height:200px;
+}
+
+form{
+  margin-left:600px;
+ 
+}
+
+.signIn input[type="text"]{
+    height:50px;
+    width:300px;
+    font-size:30px;
+    border-radius:50px;
+}
+
+.signIn{
+    padding-top: 80px;
+}
+
+.signIn input[type="password"]{
+    height:50px;
+    width:300px;
+    font-size:30px;
+    border-radius:50px;
+}
+
+.signIn input[type="submit"]{
+    height:50px;
+    width:170px;
+    margin-left:70px;
+    padding-bottom: 60px;
+    border-radius: 40px;
+    font-size:40px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+

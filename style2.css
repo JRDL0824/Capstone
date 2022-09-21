@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-image: url(img/background-bsu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 480px;
+    max-width: 1920px;
+    min-height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: #bd1616;
+    height: 70px;
+    width:1250px;
+    float:right;
+    color:white;
+}
+
+.sidebar{
+    background-color: #545454;
+    height: 760px;
+    width:250px;
+    float: left;
+}
+
+.contentArea{
+    height:550px;
+    width:900px;
+    float:left;
+   
+}
+
+.contentAreaForm{
+    height:550px;
+    width:900px;
+    float:left;
+    background-color: rgb(224, 222, 222);
+    margin-left: 150px;
+    
+}
+
+.weekTimeline{
+    height:550px;
+    width:350px;
+    float:right;
+}
+
+.eventProposal{
+    background-color: lightgray;
+    opacity: 80%;
+    height:135px;
+    width:1260px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    
+}
+
+.navbar h1{
+    margin-left:10px;
+}
+
+.sidebar img{
+    width: 250px;
+    height: 250px;
+}
+
+.linkAccCreation{
+    width: 150px;
+    height:80px;
+    font-size:20px;
+    text-align: center;
+    background-color: transparent;
+    color:white;   
+    margin-top:50px;
+    margin-left:50px;
+    border: 3px solid;
+    border-color: #40c149;
+    border-radius: 15%;
+    text-decoration: none;
+}
+
+.linkEventCal{
+    width: 150px;
+    height:80px;
+    font-size:20px;
+    text-align: center;
+    background-color: transparent;
+    color:white;   
+    margin-top:30px;
+    margin-left:50px;
+    border: 3px solid;
+    border-color: #40c149;
+    border-radius: 15%;
+    text-decoration: none;
+}
+
+.linkRecords{
+    width: 150px;
+    height:80px;
+    font-size:20px;
+    text-align: center;
+    background-color: transparent;
+    color:white;   
+    margin-top:30px;
+    margin-left:50px;
+    border: 3px solid;
+    border-color: #40c149;
+    border-radius: 15%;
+    text-decoration: none;
+}
+
+.contentArea img{
+    margin-left: 40px;
+    margin-top: 30px;
+    height:500px;
+    width:800px;
+}
+
+.weekContent{
+    background-color: lightgray;
+    opacity: 80%;
+    height:500px;
+}
+
+.weekTitle{
+    text-align: center;
+}
+
+.contentAreaForm input[type="text"]{
+    height:40px;
+    width:600px;
+    margin-left: 10px;
+    font-size:30px;
+}
+
+.contentAreaForm select{
+    margin-left: 10px;
+    height:50px;
+    width:600px;
+    font-size:30px;
+}
+
+.contentAreaForm input[type="password"]{
+    height:40px;
+    width:600px;
+    margin-left: 10px;
+    font-size:30px;
+}
+
+.contentAreaForm input[type="submit"]{
+    height:80px;
+    width:150px;
+    margin-left: 250px;
+    font-size:20px;
+}
+
+.contentAreaForm label{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.uploadEvent{
+    color:white;
+    background-color: #bd1616;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.addEvent{
+    background-color: lightgray;
+    opacity: 80%;
+    height:400px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:900px;
+    text-align: center;
+}
+
+.contentAreaRecords{
+    height:550px;
+    width:900px;
+    float:left;
+    background-color: rgb(224, 222, 222);
+    margin-left: 150px;
+}
